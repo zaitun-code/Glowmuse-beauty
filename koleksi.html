@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koleksi - Glowmuse Beauty</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        /* Latar belakang dasar menggunakan gradasi lembut pink-ungu-kuning yang segar */
+        background: linear-gradient(135deg, #fff0f5 0%, #f3e5f5 50%, #fffde7 100%);
+        color: #3d2b3d;
+    }
+
+    /* Kelas khusus agar teks biasa memiliki gradasi warna merah ke biru */
+    .text-gradient {
+        background-image: linear-gradient(to right, #ff0055, #0055ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    header {
+        /* Latar belakang header menggunakan gradasi tebal pink-ungu-kuning yang cerah dan vibrant */
+        background: linear-gradient(90deg, #ff69b4 0%, #da70d6 50%, #ffeb3b 100%);
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(74, 20, 140, 0.4);
+        text-align: center;
+        padding: 50px 20px;
+        position: relative;
+        overflow: hidden;
+    }
+  
+    header p {
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 500;
+        color: #fffde7;
+    }
+    
+    .menu {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(5px);
+        text-align: center;
+        padding: 15px;
+        border-bottom: 3px solid #ff69b4;
+    }
+
+    .menu a {
+        color: #c71585;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        display: inline-block;
+    }
+
+    .menu a:hover {
+        background: #ff69b4;
+        color: white;
+        border-radius: 20px;
+        transform: scale(1.1) rotate(-2deg);
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        background: #ffffff; 
+        padding: 35px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border-radius: 20px;
+        border: 2px solid #e1bee7;
+        box-shadow: 0px 10px 25px rgba(218, 112, 214, 0.25); 
+    }
+
+    h2 {
+        color: #8e24aa;
+        border-bottom: 3px dotted #ffeb3b;
+        padding-bottom: 10px;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+    /* Pengaturan Tata Letak Galeri Foto */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    .gallery a {
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(218, 112, 214, 0.15);
+        border: 2px solid #fff0f5;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: block;
+    }
+
+    .gallery a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(218, 112, 214, 0.3);
+        border-color: #ff69b4;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 350px; /* Diatur ke 350px agar foto potret hijab terlihat proporsional */
+        object-fit: cover; /* Memotong gambar secara otomatis agar tidak gepeng atau ketarik */
+        display: block;
+        transition: transform 0.5s ease;
+    }
+
+    .gallery a:hover img {
+        transform: scale(1.05);
+    }
+
+    footer {
+        background: #4a148c; 
+        color: #fffde7;
+        text-align: center;
+        padding: 25px;
+        font-size: 0.9em;
+        border-top: 4px solid #ffeb3b;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Glowmuse makeup</h1>
+    <p>sewa jasa makeup lengkap, kekinian, dan memuaskan</p>
+</header>
+
+<div class="menu">
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="koleksi.html">Koleksi</a>
+    <a href="kontak.html">Kontak</a>
+</div>
+
+<div class="container">
+    <h2>Beauty & Makeup Gallery</h2>
+    <p>Silakan pilih gaya riasan favoritmu di bawah ini:</p>
+
+    <div class="gallery">
+        <a href="detail-makeup-infografis.html" target="_blank">
+            <img src="1000204667.jpg" alt="Poster Panduan Makeup - Enhance Your Beauty">
+        </a>
+        <a href="detail-makeup-tradisional.html" target="_blank">
+            <img src="1000204668.jpg" alt="Makeup Anggun Gaun Maroon dengan Aksesoris Rambut">
+        </a>
+        <a href="detail-makeup-bride.html" target="_blank">
+            <img src="1000204669.jpg" alt="Makeup Pengantin Flawless dengan Nuansa Nude dan Putih">
+        </a>
+        <a href="detail-makeup-bold.html" target="_blank">
+            <img src="10002046670.jpg" alt="Makeup Bold Glamour dengan Aksesoris Emas India">
+        </a>
+        <a href="detail-makeup-wisuda.html" target="_blank">
+            <img src="1000204671.jpg" alt="Makeup Wisuda Fresh Flawless dengan Hijab">
+        </a>
+
+        <a href="detail-makeup-hijab-maroon.html" target="_blank">
+            <img src="10002046672.jpg" alt="Makeup Pengantin Hijab Anggun Gaun Maroon dengan Mahkota Emas">
+        </a>
+        <a href="detail-makeup-bride-sunda.html" target="_blank">
+            <img src="1000204673jpg.jpg" alt="Makeup Pengantin Hijab Flawless Siger Sunda Perak">
+        </a>
+        <a href="detail-makeup-tradisional-ageng.html" target="_blank">
+            <img src="1000204674.jpg" alt="Makeup Tradisional Paes Ageng Hijab dengan Aksesoris Emas">
+        </a>
+    </div>
+</div>
+
+<footer>
+    Copyright © 2026 Glowmuse Beauty
+</footer>
+
+</body>
+</html>
